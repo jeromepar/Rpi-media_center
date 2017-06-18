@@ -1,0 +1,6 @@
+gcc rs232.c media_center_serial.cpp -o exe -I/usr/local/include -L/usr/local/lib -lwiringPi
+
+if [ $? = 0 ]
+    then
+    sudo ./exe
+    fi

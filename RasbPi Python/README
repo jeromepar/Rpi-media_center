@@ -1,0 +1,6 @@
+Place these scripts in /home/pi/media_center/python
+Place mc.conf in /home/pi/media_center
+
+customize paths in mc.conf
+
+RUN "python gui.py"
